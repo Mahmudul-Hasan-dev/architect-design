@@ -25,7 +25,7 @@ header {
 
 /* navbar style */
 .nav {
-    margin: 0 230px;
+    margin: 0 150px;
     display: flex;
     justify-content: space-between;
 }
