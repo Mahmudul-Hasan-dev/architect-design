@@ -117,7 +117,7 @@ header {
     height: 982px;
 }
 
-/* experience button */
+/* experience button styles*/
 .feature-btn {
     background-color: #FF900E;
     width: 142px;
@@ -127,4 +127,101 @@ header {
     color: #FFFFFF;
     font-size: 25px;
     margin-top: 20px;
+}
+
+/* fact styles */
+.some-facts {
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.fact-description {
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+    margin-top: 24px;
+    margin-right: 800px;
+}
+
+.facts {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 180px;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 5px;
+    transition: transform 1s;
+}
+
+.fact:hover {
+    cursor: pointer;
+    transform: translate(5px, -20px) scale(1.00);
+}
+
+.fact-no {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+}
+
+.fact-info {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+
+/* Sponsors */
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 24px 500px 50px 500px;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 130px;
+}
+
+/* footer */
+footer {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.footer {
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 280px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #424242;
 }
